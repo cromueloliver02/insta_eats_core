@@ -1,0 +1,15 @@
+export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:firebase_auth/firebase_auth.dart';
+export 'package:firebase_core/firebase_core.dart';
+export 'package:insta_eats_core/src/config/flavor/app_flavor.dart';
+export 'package:insta_eats_core/src/config/theme/app_theme.dart';
+export 'package:insta_eats_core/src/core/domain/usecases/usecases.dart';
+export 'package:insta_eats_core/src/core/error/app_error.dart';
+export 'package:insta_eats_core/src/core/error/error_infos/error_infos.dart';
+export 'package:insta_eats_core/src/core/error/exceptions/exceptions.dart';
+export 'package:insta_eats_core/src/core/error/failures/failure.dart';
+export 'package:insta_eats_core/src/core/presentation/pages/pages.dart';
+export 'package:insta_eats_core/src/core/presentation/widgets/widgets.dart';
+export 'package:insta_eats_core/src/core/type_defs/type_defs.dart';
+export 'package:insta_eats_core/src/core/utils/utils.dart';
+export 'package:insta_eats_core/src/insta_eats_core.dart';

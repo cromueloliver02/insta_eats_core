@@ -1,0 +1,25 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+linter:
+   rules:
+      public_member_api_docs: false
+      one_member_abstracts: false
+      omit_local_variable_types: false
+      directives_ordering: false
+      # unawaited_futures: true
+      sort_unnamed_constructors_first: false
+      sort_constructors_first: false
+      always_put_required_named_parameters_first: false
+      avoid_positional_boolean_parameters: false
+      # sort_child_properties_last: true
+
+analyzer:
+   errors:
+      invalid_annotation_target: ignore
+   exclude:
+      - '**/*.freezed.dart'
+      - '**/*.g.dart'
+      - '**/*.gen.dart'
+
+formatter:
+   trailing_commas: preserve
