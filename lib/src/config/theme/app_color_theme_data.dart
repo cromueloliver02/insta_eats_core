@@ -27,7 +27,7 @@ class AppColor {
   static const Color _blue50 = Color(0xFFE3F2FD);
   static const Color _blueAccent100 = Color(0xFF82B1FF);
 
-// linear gradient colors
+  // linear gradient colors
   static const List<Color> _appBarGradientColor = [
     Color(0xff82d9e3),
     Color(0xffa7e7cd),

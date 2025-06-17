@@ -8,6 +8,7 @@ part 'app_text_theme_data.dart';
 extension AppThemeX on BuildContext {
   AppColorThemeData get colorTheme => AppTheme.of(this).colorTheme;
   AppTextThemeData get textTheme => AppTheme.of(this).textTheme;
+  ThemeData get theme => Theme.of(this);
 }
 
 class AppThemeData {
